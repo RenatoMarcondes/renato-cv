@@ -3,19 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f6f8">
 <title>Renato Marcondes de Souza</title>
 <style>
-*{box-sizing:border-box} body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f6f8;color:#172033;font-family:Arial,Helvetica,sans-serif;padding:24px}
-main{width:min(100%,520px);background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:36px 26px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.06)}
-h1{font-size:clamp(1rem,4.5vw,2rem);white-space:nowrap;letter-spacing:-.04em;margin:0 0 28px;line-height:1.2}
-a{display:block;text-decoration:none;font-weight:700;padding:15px 18px;border-radius:10px;margin-top:12px;border:1px solid #1d4ed8;color:#1d4ed8}
-a:first-of-type{background:#1d4ed8;color:#fff}
-a.whatsapp{border-color:#128C7E;color:#128C7E}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f6f8;color:#111827;font-family:Arial,Helvetica,sans-serif;padding:24px}
+main{width:min(100%,620px);background:#fff;border:1px solid #e5e7eb;border-radius:22px;padding:clamp(24px,5vw,42px) clamp(18px,5vw,36px);text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.07)}
+h1{font-size:clamp(1rem,4.2vw,2.1rem);white-space:nowrap;letter-spacing:-.035em;margin:0 0:32px;line-height:1.2;margin-bottom:32px}
+a{min-height:66px;display:flex;align-items:center;justify-content:center;gap:16px;text-decoration:none;font-weight:700;font-size:clamp(1rem,2.5vw,1.25rem);padding:16px 18px;border-radius:14px;margin-top:14px;border:1.5px solid #2455e6;color:#2455e6;transition:transform .15s ease,box-shadow .15s ease}
+a:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(0,0,0,.08)}
+a.cv{background:#2455e6;color:#fff}
+a.linkedin{border-color:#0a66c2;color:#0a66c2}
+a.whatsapp{border-color:#128c57;color:#128c57}
+.icon{width:34px;height:34px;flex:0 0 34px;display:block}
+@media(max-width:360px){main{padding:24px 14px}h1{font-size:clamp(.88rem,4.1vw,1rem);letter-spacing:-.045em}a{gap:10px;padding:14px 10px}}
 </style>
 </head>
-<body><main>
+<body>
+<main>
 <h1>Renato Marcondes de Souza</h1>
-<a href="RenatoSouza_CV_Infraestrutura_Suporte_EN.pdf" target="_blank" rel="noopener">Currículo em PDF</a>
-<a href="https://www.linkedin.com/in/renato-m-souza/" target="_blank" rel="noopener">LinkedIn</a>
-<a class="whatsapp" href="https://wa.me/5511972683523" target="_blank" rel="noopener">WhatsApp</a>
-</main></body></html>
+<a class="cv" href="RenatoSouza_CV_Infraestrutura_Suporte_EN.pdf" target="_blank" rel="noopener">
+<svg class="icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 3.5h10l7 7V28H8z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M18 3.5v7h7M12 17h9M12 21.5h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+<span>Currículo em PDF</span>
+</a>
+<a class="linkedin" href="https://www.linkedin.com/in/renato-m-souza/" target="_blank" rel="noopener">
+<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="4" fill="#0a66c2"/><circle cx="9" cy="10" r="2" fill="#fff"/><path d="M7.2 14h3.6v11H7.2zM14 14h3.5v1.5c.7-1.1 1.8-1.8 3.5-1.8 3.4 0 4.1 2.2 4.1 5.2V25h-3.7v-5.4c0-1.5-.1-2.7-1.8-2.7s-2 1.3-2 2.7V25H14z" fill="#fff"/></svg>
+<span>LinkedIn</span>
+</a>
+<a class="whatsapp" href="https://wa.me/5511972683523" target="_blank" rel="noopener">
+<svg class="icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M26.5 15.4a10.7 10.7 0 0 1-15.8 9.4L4 26.5l1.8-6.4a10.7 10.7 0 1 1 20.7-4.7Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M11.4 10.3c.4-.7.8-.7 1.2-.7h.7c.2 0 .5.1.7.6l1 2.4c.1.3.1.5-.1.8l-.8 1c-.2.2-.3.4-.1.7.6 1.1 1.5 2 2.6 2.6.3.2.5.2.7-.1l1-1.2c.2-.3.5-.3.8-.2l2.3 1.1c.3.2.5.3.5.5 0 .3-.2 1.5-.9 2.1-.7.7-1.7 1-2.8.7-1.1-.3-2.5-.9-4.2-2.4-2-1.8-3.3-4-3.6-5.2-.3-1.2.1-2.1.5-2.7Z" fill="currentColor"/></svg>
+<span>WhatsApp</span>
+</a>
+</main>
+</body>
+</html>
